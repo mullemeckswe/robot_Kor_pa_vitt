@@ -1,3 +1,6 @@
+/**
+ * Kör frammåt på vitt underlag och stannar vid svart streck
+ */
 input.onButtonPressed(Button.A, function () {
     Run = 1
 })
