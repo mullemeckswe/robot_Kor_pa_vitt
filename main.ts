@@ -3,6 +3,7 @@ input.onButtonPressed(Button.A, function () {
 })
 input.onButtonPressed(Button.B, function () {
     Run = 0
+    Tinybit.CarCtrl(Tinybit.CarState.Car_Stop)
 })
 let Run = 0
 Tinybit.CarCtrl(Tinybit.CarState.Car_Stop)
